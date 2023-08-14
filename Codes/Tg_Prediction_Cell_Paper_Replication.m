@@ -1,4 +1,4 @@
-df = readtable('Data_For_Use.csv');
+df = readtable('../Data/Data_For_Use-Tg_Prediction.csv');
 X = [table2array(df(:,"x__DebyeAng_")),table2array(df(:,"x__DebyeAng3_"))];
 y = [table2array(df(:,"Tg_K_"))];
 n = 60;
